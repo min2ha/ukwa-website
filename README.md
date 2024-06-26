@@ -8,9 +8,9 @@ To build docker image
 docker build -t <TAG-NAME> .
 ```
 
-To run docker image
+To run docker image (for this specific NGINX configuration)
 
 ```
-docker run -p 8090:80 -d <TAG-NAME>
+docker run -p 80:80 -d <TAG-NAME>
 ```
 
